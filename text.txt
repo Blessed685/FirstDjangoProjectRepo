@@ -1,4 +1,0 @@
-# python or py manage.py startapp appname
-# python or py manage.py runserver
-# cls or clear to clear terminal
-# ctrl + C to stop server

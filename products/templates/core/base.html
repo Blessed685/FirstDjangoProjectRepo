@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
+
+    <link rel="stylesheet" href="/static/core/style.css">
 </head>
-<body style="margin: 0; font-family: Arial, sans-serif;">
+<body>
 
-    <!-- NAVBAR -->
-    <header style="background: #111; color: white; padding: 15px;">
-        <h2 style="margin: 0;">Products</h2>
+    <header>
+        <h2>Products</h2>
 
-        <nav style="margin-top: 10px;">
-            <a href="/" style="color: white; margin-right: 15px; text-decoration: none;">Home</a>
-            <a href="/about/" style="color: white; margin-right: 15px; text-decoration: none;">About</a>
-            <a href="/contact/" style="color: white; text-decoration: none;">Contact</a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about/">About</a>
+            <a href="/contact/">Contact</a>
         </nav>
     </header>
 
-    <!-- PAGE CONTENT -->
-    <main style="padding: 20px;">
+    <main>
         {% block content %}
         {% endblock %}
     </main>

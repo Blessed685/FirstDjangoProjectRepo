@@ -3,22 +3,36 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Header */
 header {
     background: #111;
     color: white;
-    padding: 15px;
+    padding: 15px 30px;
 }
 
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+/* Navigation Links */
 nav a {
     color: white;
-    margin-right: 15px;
     text-decoration: none;
+    margin-left: 20px;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
+/* Main Content */
 main {
-    padding: 20px;
+    padding: 20px 30px;
 }

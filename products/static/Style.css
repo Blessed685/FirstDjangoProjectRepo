@@ -1,38 +1,37 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background: yellow; /* VERY OBVIOUS TEST */
 }
 
-/* Header */
+/* HEADER */
 header {
-    background: #111;
+    background: red; /* VERY OBVIOUS TEST */
     color: white;
-    padding: 15px 30px;
+    padding: 20px 30px;
 }
 
-/* Navigation Bar */
+/* NAVBAR */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* TITLE */
 .navbar h2 {
     margin: 0;
 }
 
-/* Navigation Links */
+/* LINKS */
 nav a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
+    font-weight: bold;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Main Content */
+/* MAIN */
 main {
     padding: 20px 30px;
 }
